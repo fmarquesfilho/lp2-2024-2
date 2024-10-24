@@ -1,8 +1,7 @@
-package exemplo2;
 
-public class TesteSom {
+public class TesteAnimal {
     public static void main(String[] args) {
-        Gato gato = new Gato();
+        Animal gato = new Gato();
         gato.emitirSom();
         gato.nascer();
     }
